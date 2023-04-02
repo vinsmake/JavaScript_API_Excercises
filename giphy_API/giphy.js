@@ -1,7 +1,7 @@
 //this is the key provided by the server
 const giphyApiKey = 'MUdNYQ4z6WNI0GjV5JP9dM76Z3X10gZB';
 
-//this is the petition using the api key
+//this is the promise petition using the api key
 const giphyPetition = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${giphyApiKey}`);
 
 //the next it's a chaining promise
